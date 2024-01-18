@@ -1,0 +1,89 @@
+.accueil{
+  position: fixed;
+  left: 25%;
+  width: 75%;
+  height: 100%;
+}
+
+.title_slogan{
+  text-align: center;
+  font-size: 32px;
+  color: #FCC70F;
+  background-color: #EFE9C8;
+  padding: 25px 5px;
+}
+
+
+.countries{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 4%;
+  width: 92%;
+  gap: 20px;
+}
+
+.count_itm{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  color: #000;
+  border-bottom:1px solid #000 ;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.drop_link{
+  display: initial;
+  cursor: pointer;
+}
+
+.count_itm ul{
+  display: none;
+  position: relative;
+  /*top: 20px;
+  left: 80%;
+  width: 200px;*/
+  left: 0;
+  width: 100%;
+  padding: 0;
+  /*background-color: #EFE9C8;*/
+  border-radius: 10px;
+  list-style-type: none;
+  
+  z-index: 10;
+}
+
+.count_itm ul .linkin{
+  padding: 0;
+}
+
+.count_itm ul .linkin a{
+  color: #000;
+  text-decoration: none;
+}
+
+.count_itm:hover > ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.count_itm ul li{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.informa_reg{
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+  background-color: #EFE9C8;
+  border-radius: 10px;
+  justify-content: center;
+}

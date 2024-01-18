@@ -1,0 +1,39 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: #5E92E0;
+}
+
+.logo_name{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    font-weight:bolder;
+    font-family: "inter" sans-serif;
+}
+
+.name span{
+    font-size: 16px;
+}
+
+.links a{
+    background-color: #FCC70F;
+    padding: 10px;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
